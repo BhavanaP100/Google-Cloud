@@ -39,3 +39,34 @@ Latency: Measures the time a packet of information takes to travel from its sour
 Each of these locations is divided into several different regions and zone
 Regions:These represent independent geographic areas and are composed of zones.
 eg: London/europe-west2 is region that has 3 zones 1.europe-west2-a,2.europe-west2-b,3.europe-west2-c.
+Zone:A zone is area where Google Cloud resources are deployed.
+eg:if you launch a vm using compute engine it will run in zones that you specify to ensure resource redundancy.
+
+1.you can also run resources in different regions this is useful for bringing app closer to users around the world,and also for protection in case there are issues with an entire region like natural disaster.
+2.Some of Gc services support placing resources in multi region
+eg: spanner multi-region conf allow u to replicate the db data in multiple zones across multiple regions
+
+Gc is providing 127 zones and 42 regions
+
+Google infrastucture Security:
+
+Hardware infrastructure layer 
+1.hardware design and provenance 
+2.Secure boot stack
+3.Premises security 
+
+Serive deployment layer
+1.Encryption of inter-service communication
+
+User identity layer
+user identity
+
+Storage services layer
+1.Encyption at rest
+2.Dos protection
+
+operational security layer
+1.Intrusion detection
+2.Reducing insider risk
+3.Employee universal second factor(U2f) use
+4.software development practices
