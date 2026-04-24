@@ -5,3 +5,37 @@ cloud computig is way of using IT
 3.The provider of those resource allocates them to user out of that pool
 4.Resources are elastic -means flexible so customer can be 
 5.Customers pay only for what they use 
+
+Iaas: Provides Raw compute,Storage and network capabilities,Here customers pay for what they allocate
+eg:compute Engine 
+
+Paas: Bind code to libraries that provide access to the infrastucture needs,This allows more resources to be focused on application logic
+      in paas model customers pay for the resources they actually use  
+eg:App Engine 
+
+Saas:It provides entire application stack delivering an entire cloud based application that customers can access and use 
+     these arent instaled locally on computer instead they run on cloud as serives and are  consumed directly over 
+     the internet by end users  
+eg:gmaol,drive etc 
+
+Google cloud network : It is designed to give customers 
+1.highest possible throughput 
+2.lowest possible latencies
+3.100+ content catching nodes world wide
+4.High demand content is cached for quicker access
+
+infrastructure is based on 7 major geographic locations:
+1.North America
+2.South America
+3.Africa 
+4.Middle east
+5.Europe
+6.Asia 
+7.Austrilia
+
+App loaction should be depend on availability ,durability and latency.
+Latency: Measures the time a packet of information takes to travel from its source to its destination.
+
+Each of these locations is divided into several different regions and zone
+Regions:These represent independent geographic areas and are composed of zones.
+eg: London/europe-west2 is region that has 3 zones 1.europe-west2-a,2.europe-west2-b,3.europe-west2-c.
