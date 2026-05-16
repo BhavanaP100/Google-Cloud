@@ -1,12 +1,11 @@
-cloud computig:allows renting infrastructure ,runtime envi and service on pay peer user basis
-cloud computig is way of using IT 
+cloud computig:allows renting infrastructure ,runtime envi and service on pay peer user basis .cloud computig is way of using IT 
 1.customer get computing resource that are on demand and self service 
 2.customers get acess to those resource over internet from anywhere 
 3.The provider of those resource allocates them to user out of that pool
 4.Resources are elastic -means flexible so customer can be 
 5.Customers pay only for what they use 
 
-// 
+/fundamentals/
 Iaas: Provides Raw compute,Storage and network capabilities,Here customers pay for what they allocate
 eg:compute Engine 
 
