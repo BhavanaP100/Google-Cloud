@@ -6,6 +6,7 @@ cloud computig is way of using IT
 4.Resources are elastic -means flexible so customer can be 
 5.Customers pay only for what they use 
 
+// 
 Iaas: Provides Raw compute,Storage and network capabilities,Here customers pay for what they allocate
 eg:compute Engine 
 
@@ -70,3 +71,5 @@ operational security layer
 2.Reducing insider risk
 3.Employee universal second factor(U2f) use
 4.software development practices
+
+
