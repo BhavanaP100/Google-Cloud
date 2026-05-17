@@ -7,23 +7,26 @@ cloud computig:allows renting infrastructure ,runtime envi and service on pay pe
 
 /fundamentals/
 
-Iaas: Provides Raw compute,Storage and network capabilities,Here customers pay for what they allocate
+1.Iaas: Provides Raw compute,Storage and network capabilities,Here customers pay for what they allocate
 eg:compute Engine 
 
-Paas: Bind code to libraries that provide access to the infrastucture needs,This allows more resources to be focused on application logic
+2.Paas: Bind code to libraries that provide access to the infrastucture needs,This allows more resources to be focused on application logic
       in paas model customers pay for the resources they actually use  
 eg:App Engine 
 
-Saas:It provides entire application stack delivering an entire cloud based application that customers can access and use 
+3.Saas:It provides entire application stack delivering an entire cloud based application that customers can access and use 
      these arent instaled locally on computer instead they run on cloud as serives and are  consumed directly over 
      the internet by end users  
 eg:gmaol,drive etc 
+
+/network/
 
 Google cloud network : It is designed to give customers 
 1.highest possible throughput 
 2.lowest possible latencies
 3.100+ content catching nodes world wide
 4.High demand content is cached for quicker access
+
 
 infrastructure is based on 7 major geographic locations:
 1.North America
@@ -48,6 +51,8 @@ eg:if you launch a vm using compute engine it will run in zones that you specify
 eg: spanner multi-region conf allow u to replicate the db data in multiple zones across multiple regions
 
 Gc is providing 127 zones and 42 regions
+
+/security/
 
 Google infrastucture Security:
 
