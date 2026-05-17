@@ -154,7 +154,33 @@ Google implements security at multiple layers:
 ```
 
 ---
+## open source ecosystem
 
+google publishes key elements of technology using open source licensess to create ecosystems that provide customers with other options other than google
+
+**Example**
+|**tensorflow : is an open source library fir ml at the heart of strong open source ecosystem
+kubernets and google kuberntes engines give ability to mix and match micorservices running across differnet clouds
+google cloud observability lets customer monitor workloads across multiple cloud providers
+
+
+## pricing and biling:
+google deliver per-second billing for its IaaS compute offerning and compute engine
+
+google kubernetes engine,Dataproc and App engine flexible environment is also allowing per second billing
+
+compute engine provide sustained -use discounts that gets for running a vm instance for significant portion of biling mnth
+
+custom virtual machines allow compute engine vm to be fine tuned with optimal amounts of vcpu and memory for their applications 
+
+
+How can i make sure i dont accidenally run up a big google cloud bill ?
+1.Budgets
+2.alerts
+3.reports
+4.quotas:2types:
+1.Rate Quota:resets after specific time
+2.Allocation Quota: govern number of resources
 ## 🎓 Key Takeaways
 
 | Aspect | Key Point |
@@ -168,4 +194,4 @@ Google implements security at multiple layers:
 
 ---
 
-**Last Updated:** May 17, 2026
+
