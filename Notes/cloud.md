@@ -1,4 +1,5 @@
 **cloud computig:**allows renting infrastructure ,runtime envi and service on pay peer user basis .cloud computig is way of using IT .
+**Characteristics:**
 1.customer get computing resource that are on demand and self service .
 2.customers get acess to those resource over internet from anywhere .
 3.The provider of those resource allocates them to user out of that pool.
