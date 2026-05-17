@@ -95,6 +95,11 @@ Google implements security at multiple layers:
 ├── Reducing insider risk
 ├── Employee Universal Second Factor (U2F) use
 └── Software development practices
+
+//open source ecosystem:
+
+
+
 🎓 Key Takeaways
 Aspect	Key Point
 Cost	Pay only for what you use
@@ -103,3 +108,4 @@ Accessibility	Access from anywhere via internet
 Security	Multi-layered security approach
 Global Reach	127 zones across 42 regions
 Reliability	Redundancy across regions
+
