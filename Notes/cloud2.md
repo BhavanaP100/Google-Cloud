@@ -48,3 +48,12 @@ Iam always checks relevant deny policies before checking relevant allow policies
 
 2. predefined:specific google cloud service offer sets of predefined roles and they define where those role applied
 3. Custom:to assign role that has even more specific permissions
+
+### Service Accounts:
+Service accounts allow u to assign specific permissions to a vm,so it can interact with other cloud services without human intervention.
+
+serivice account named with email address but they use cryptographic keys
+to access resources
+
+###cloud identity:
+with cloud identity organizations can define policies n manage their users and groups using the google admin console
