@@ -57,3 +57,7 @@ to access resources
 
 ###cloud identity:
 with cloud identity organizations can define policies n manage their users and groups using the google admin console
+
+admin can log in n manage resouces using same credentials used in existing active directory or ldap systems
+when someone leaves organization google admin console can be used to disable user account n remove them from groups when they leave
+its avaliable in googke admin console n goggle workspace customers
