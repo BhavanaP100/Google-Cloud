@@ -245,14 +245,3 @@ Google provides **4 layers of protection** to prevent surprise charges:
 
 ---
 
-## 🚀 Getting Started Checklist
-
-- [ ] Understand the 3 service models (IaaS, PaaS, SaaS)
-- [ ] Know your closest region and its zones
-- [ ] Set up billing alerts and budgets
-- [ ] Explore Compute Engine (IaaS) for hands-on learning
-- [ ] Learn about multi-region deployment for high availability
-- [ ] Check out TensorFlow if interested in ML
-
-**Happy Learning! 🎉**
-
