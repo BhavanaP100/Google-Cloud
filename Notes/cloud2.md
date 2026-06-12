@@ -239,4 +239,4 @@ If "Editor" role granted at Project level:
 | **Principle of Least Privilege** | Grant minimum necessary permissions using predefined/custom roles |
 
 ---
->>>>>>> b9769e457524917bcde3a6b30df3de47b059bd5d
+
