@@ -71,7 +71,8 @@ Think of this as the **App Store for Cloud Infrastructure**. Instead of an engin
 
 ### 1. What I Actually Learned Today
 *   **Speed Over Manual Work**: Instead of spending hours manually configuring a server, setting up security, and linking databases, Cloud Marketplace did it all for me instantly.
-*   **Renting Power, Not Hardware**: I deployed a full web server without owning a physical machine. I simply told Google exactly how much computer power (CPUs and RAM) I needed, and they gave it to me instantly.
+*   **Renting Power, Not Hardware**: I deployed a full web server without owning a physical machine. I simply told Google exactly how much computer power (CPUs and RAM) I needed, and they gave it to me.
+*   **Infrastructure as Code Concept**: This is how real DevOps engineers work—they use pre-built templates and automation instead of clicking buttons one-by-one.
 
 ### 2. When do companies actually use a LAMP Stack?
 You use a LAMP stack for traditional, database-heavy websites where the server has to "build" the page before showing it to the user.
@@ -81,11 +82,15 @@ You use a LAMP stack for traditional, database-heavy websites where the server h
 ### 3. When would a company choose something else?
 Tech has evolved, and companies don't always want to manage a whole computer server just to run code. Here is what they use instead:
 
-*   **For simple, static websites (No Servers)**: If you just want to host a beautiful portfolio or a landing page made of pure HTML, CSS, or basic JavaScript, you don't need a LAMP stack. You can just throw the files into **Google Cloud Storage** directly, and it runs for pennies without a server.
-*   **For Modern Apps (Apps that run on your phone/browser)**: Modern apps (like Netflix or Instagram) use heavy JavaScript on your device, and only call the cloud when they need to fetch data. They use specialized tools (like Node.js or Python) rather than traditional PHP.
-*   **For "No-Server" Apps (Serverless)**: If a company only runs a piece of code once a day (like calculating midnight bills), they don't want a server running 24/7. They use **Cloud Functions**, where Google turns a server on for 2 seconds, runs the code, and shuts it down instantly so the company only pays for those 2 seconds.
+*   **For simple, static websites (No Servers)**: If you just want to host a beautiful portfolio or a landing page made of pure HTML, CSS, or basic JavaScript, you don't need a LAMP stack. You can use Cloud Storage + CDN instead.
+*   **For Modern Apps (Apps that run on your phone/browser)**: Modern apps (like Netflix or Instagram) use heavy JavaScript on your device, and only call the cloud when they need to fetch data. They use Node.js, Python FastAPI, or Go instead of PHP.
+*   **For "No-Server" Apps (Serverless)**: If a company only runs a piece of code once a day (like calculating midnight bills), they don't want a server running 24/7. They use **Cloud Functions**, which runs code only when triggered and charges by the second.
 
 ### 4. Next Practical Steps I Want to Explore
 *   Deploy an actual WordPress blog on top of this LAMP Stack.
 *   Learn how to lock down the server using Google Cloud Firewall rules so hackers can't access it.
-*   Watch Abhishek Veeramalla to see how to write a script that launches this automatically without clicking buttons.
+*   Write a script (Bash or Python) that launches this deployment automatically without clicking buttons.
+*   Monitor server performance and set up automated backups.
+*   Learn about SSL certificates to enable HTTPS on the deployed site.
+
+---
