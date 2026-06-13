@@ -65,7 +65,7 @@ with cloud identity organizations can define policies n manage their users and g
 admin can log in n manage resouces using same credentials used in existing active directory or ldap systems
 when someone leaves organization google admin console can be used to disable user account n remove them from groups when they leave
 its avaliable in googke admin console n goggle workspace customers
-=======
+
 #### **Level 4: Organization Node**
 - **Definition:** Top-level container for folders, projects, and all resources
 - **Role:** Manages organization-wide policies and permissions
