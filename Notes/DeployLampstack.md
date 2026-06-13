@@ -36,7 +36,7 @@ Think of this as the **App Store for Cloud Infrastructure**. Instead of an engin
 1. Clicked the blue **Get Started** button, checked the agreement box, and clicked **Agree**.
 2. Clicked the blue **Deploy** button.
 3. Filled out the setup form with these exact settings:
-    * **Zone**: Selected `[REDACTED]` (Told Google which physical data center building to use).
+    * **Zone**: Selected (zone) (Told Google which physical data center building to use).
     * **Machine Type**: Selected **E2** as the series and **e2-medium** as the power level (2 CPUs, 4GB RAM).
     * Left all other options on default settings.
 4. Scrolled to the bottom and clicked the final blue **Deploy** button.
