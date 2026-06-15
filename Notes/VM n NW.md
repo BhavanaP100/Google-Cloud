@@ -82,3 +82,10 @@ You can create and run virtual machines on Google infrastructure with no upfront
 - **Billing** = Per second (very cheap!)
 - **Spot/Preemptible** = Budget options
 - **Marketplace** = Ready-to-use solutions
+
+-------
+
+to do this ce has a feature called autoscaling where vms can be added to or subtracted from an application based on load metrics.
+the other part of making that work is balancing the incoming traffic among the vms.
+vpc supports several different kinds of load balancing with ce we can configure very large vms which are great for workloads such as in memory databases n cpu intensive analytics but most gc customers start off with scaling out not up 
+The maximum number of cpus per vm is tied to its "machine family" n is also tied to it machine family n constrained by users quota
