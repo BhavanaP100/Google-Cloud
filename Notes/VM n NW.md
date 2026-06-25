@@ -128,3 +128,15 @@ n/w load balancers operate at the transport layer n efficiently handle TCP, UDP 
 they can befurther classified into 2 types:
 proxy n/w load balancers also fucntion as reverse procies,terminating n esatablishing new ones to backend services thwy offer advanced traffic management capablities n support bacekend loctedboth on premises n in various cloud environments.
 unlike proxy n/w load balancers passthrough n/w load balancers do not modufify or terminate conncetions instead they directly forward traffic to the bakend while preserving the original source of ip adress
+-----------
+cloud dns n cloud cdn 
+one of the most famous free google services is 8.8.8.8,which provide public domain name service to the world 
+DNS is what translates internet hostnames to addresses 
+google has higly developed dns infrastructure that makes 8.8.8.8 available so that everyone can take advantage of it 
+google cloud offers cloud dns to help worlf find them 
+its managed DNS service that runs on the same infrastructure on t=google
+low latency ,high avalialbility , n cost efficitvwness 
+the dns information u publish is served fm redundant loaction around the world
+cloud DNS is programmble,u van publisj n manage millions of dns zones n records using the google cloud console the command line interface or the api
+google also has a global system of edge cches edge caching refers to the use of caching servers to store content closer to end users
+u can usethis sys to accelerate content delivery in ur application this means ur customers will exp lowwer n/w latency ,  the origin of ur content will exp reduced load , save money after an app looad balancer is set up  enabled with single checkbox there many other cdn available out there of course 
