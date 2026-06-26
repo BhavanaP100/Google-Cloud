@@ -140,3 +140,36 @@ the dns information u publish is served fm redundant loaction around the world
 cloud DNS is programmble,u van publisj n manage millions of dns zones n records using the google cloud console the command line interface or the api
 google also has a global system of edge cches edge caching refers to the use of caching servers to store content closer to end users
 u can usethis sys to accelerate content delivery in ur application this means ur customers will exp lowwer n/w latency ,  the origin of ur content will exp reduced load , save money after an app looad balancer is set up  enabled with single checkbox there many other cdn available out there of course 
+----
+connecting n/w to google vpc
+start with virtual private n/w connection over the internet 
+and use cloud vpn to create a tunnel creation
+to make the connection dynamic a gc feature called cloud router can be used 
+lets other n/w n google vpx exchange roite info over the vpn using the border gaterway protocol
+but there security and bandwidth pblms always 
+
+2. direct peering with google
+ put a router ub same public datacenter as google point of presence
+uses a router to exchange the traffiv btw n/w
+more than 100 google points of presence around the world
+
+3. carrier peering
+gives direct access fm an on premises  n/w through a service providers n/w
+not covered by a google service level agreement 
+
+4. dedicated inter connect
+ allows for one or more direct provate connection to google
+ can be covered by up to 99.99% sla
+ connection can be backed up by vpn
+
+ 5. partner interconnect
+   usefyl f a data center is in physical location that cant recah a dedicated interconnect colocation facility 
+   useful if dta need dont warrant an entire 10 gb per sec connection
+   can be configured to support mission critical servives or apllication that can tolerate some downtime 
+   can be covered by up to 99.99% sla
+
+   6. cross clpud interconnect
+    esatblisj high bandwidth dedicated connectivity btw google cloud nad another cloud service provider
+    supports the adoption if sn integrated multicloud strategy
+    two connection sizes :10gbps or 100 gbps
+    
