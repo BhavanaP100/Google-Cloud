@@ -43,3 +43,28 @@ binary large-obj blob storage is needed for
  for most purposes,IAM is sufficient 
  if u need finer control u can create ACLs it has scope n permission scope like who can acess n perform an action , permission wt asking can be performed 
 cuz storing n retriving large amt of obj data can quickly become expensive cloud storage offers lifecycle policies 
+
+there are 4 primary storage classes in cloud storage 
+1.standard storage : best for frequently accesed data n great for storing data for  long time 
+2.nearline storage: sstorinf infrequently accesed data like reading / modifying on avg once a mnth or less  eg: data backups long tail multimedia content n data archiving 
+3.Cloadline storage : lost cost option for storing infrequently acessed data  meant for readin / modifying  data atmost once every 90 days 
+4.Archive  storage : lowest-cost option ideal for data archiving , online backup n disaster recovery, best for accesss less than once a year 
+
+for all 4  storage classes :
+unlimited storage 
+worlwide accessible 
+low latency n high durablility
+uniform experiencegeo redudancy 
+
+Cloud storage also provides feature autoclass which automatically transitions 
+moves data that is not accesses to colder storage classes to reduce storage cost 
+moves data that is accessed to standard storage to optimizze future access
+
+autoclass simpliefies n automates cost saving for ur cloud storage data 
+cloud storage has no min fee cuz u pay only for wt u use n prior provisioning , encryots data on server side n use https/tls 
+
+many customers carry out their own online transfer using gcloud storage which is cloud storage command from cloud sdk ,data can also be moved in by drag n drop option in cloud console if accessed through google chrome web browser 
+
+storage tranfer services enables to import large amt of online data into cloud storage n it lets u sechedule n manage batch transfers to cloud storage  from another cloud provider from diff cloud storage region or fm an HTTP(S) endpoint  
+
+tranfer appliance , which is rackable, high capacity storage server that u lease fm gc  we can connect to n/w load it data n then ship it to an upload facility where data is uploaded to cloud storage  we can tranfer up to petabyte of data on single apllicance 
