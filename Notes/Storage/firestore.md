@@ -1,0 +1,1 @@
+firestore is flexible , horizontally scalable n NoSql cloud db for mobile , web n server development 
