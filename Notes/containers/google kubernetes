@@ -1,0 +1,36 @@
+GKE is google-hosted managed kuberntes service in the cloud
+gke environment consists of multiple machines specifically compute instaces,grouped together to form a cluster 
+
+uniqueness of gke:gke manages all the control plane components for us
+it still exposes an IP address to which we send all our kubernetes API requests but gke takes responsibility for provisioning and managing all the control plane infrastructure behind it 
+it also eliminates the need of a separate control plane 
+
+node config and management depends on the type of gke mode you use 
+with autopilot mode which is recommended GKE manages the underlying infrastructure such as node config , autoscaling ,auto upgrades baseline security config and baseline n/w congig
+with standard mode user managed infra including configuring the individual nodes 
+
+autopilot:optimized for production
+strong security posture 
+promoted operational efficiency 
+
+the gke standard mode has same functionality as autopilot but your responsible for the config , management and optimization of the cluster 
+unless you require the specific level of config control offered by gke standard 
+
+kubernetes cluster can be created with kubernetes engine by using google cloud console 
+gke clusters can be customized and they support different machine types,no of nodes and n/w settings 
+
+
+kuberneted provides the mechanisms through which u interact with ur cluster 
+kubernetes commands and resources are used to deploy and manage appl perform to deploy and manage appl , perform administration tasks ,set policies and monitor the health of deployed workloads 
+
+advanced cluster management features:
+gc load balancing for compute engine instances 
+Node pools to designate subsets of nodes within a cluster
+automatic scaling of ur clusters node instance count 
+automatic upgrades for ur clusters node s/w
+node auto repair to maintain node health n availability
+logging and monitoring with gc observability
+
+to start up kubernetes on a cluster in GKE we run : gcloud container cluster create k1
+
+
