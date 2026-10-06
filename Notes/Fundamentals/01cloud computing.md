@@ -1,6 +1,3 @@
-Yes. We'll make `01-Cloud-Computing.md` **short enough to revise, but complete enough for an interview**—with the same clean highlighted style you use in your notes.
-
-Since you want to start from **data centers → why cloud → VMs → cloud models → GCP**, here's the content I'd put in the file.
 
 # ☁️ Cloud Computing
 
