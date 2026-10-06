@@ -1,12 +1,3 @@
-You're right. I overdid it. **Your notes are supposed to be quick revision notes, not documentation.** And I should be using **your existing content + Abhishek Veeramalla's explanation** as the basis.
-
-I’ll keep the format:
-
-**Concept → simple explanation → tiny example/diagram → interview point**
-
-No huge sections, no repeated explanations, no 15-question interview section.
-
-For `03-Resource-Hierarchy.md`, the target should be roughly **1 screen of useful notes**, like this:
 
 # GCP Resource Hierarchy
 
@@ -26,7 +17,8 @@ Organization
 
 * Top-level container for a company/organization.
 * Usually associated with **Google Workspace / Cloud Identity**.
-* Personal Google accounts may not have an Organization.
+* Personal Google accounts may not have an 
+* Organization.
 
 ## 2. Folders
 
